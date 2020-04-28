@@ -101,7 +101,7 @@ Same as above
 
 One challenge with the regressions is that they are based on a different number of underlying observations. This is because of the data available in relation to the 100 counties selected as a random sample. The number of observations in our sample decreases from 100 to 71 to 70 to 68 to 48.
 
-In a first step I therefore harmonize the regressions by basing them on the same sample throughout - the 48 observations that have all the required data available. I then compare whether the new regressions yield similar results as the regressions in the paper. Only the first four regressions will change (as regressions (5) and (6) in the original paper are already based on the 48 counties). The following tables represent original and new results side by side. The first column being the original results, the second the result based on the 48 counties.
+In a first step I therefore harmonize the regressions by using the sub-sample of 48 observations that have all the required data for all regressions. I then compare whether the new regressions yield similar results as the regressions in the paper. Only the first four regressions will change (as regressions (5) and (6) in the original paper are already based on the 48 counties). The following tables represent original and new results side by side. The first column being the original results, the second the result based on the 48 counties.
 
 ### Competence 
 ```{r regression_comparison_competence, cache = TRUE, include =FALSE}
